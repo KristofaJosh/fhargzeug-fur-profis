@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#image-search {
+    padding: 1%;
+    /* background-color: blue; */
+    border-bottom: 2px solid #434343;
+}
+
+#image-search img{
+    width: 200px;;
+    height: 70px;
+}
+
+#search-bar{
+    float: right;
+    position: relative;
+    top: 15px;
+}
+
+.search-btn:hover {
+    background-color: #f7c873;
+}
+
+#nav-div {
+    text-decoration: none;
+    padding-left: 30px;
+}
+
+#nav-bar-header {
+    background-color: #f7c873;
+    height: 50px;
+    text-decoration: none;
+}
+
+#nav-bar-pages li{
+    float: left;
+    padding: 0px 5px;
+    margin: 5px;
+    height: 40px;
+    list-style-type: none;
+    background-color: red;
+    margin-right: 11px;
+}
+
+#buy-sell-btn {
+    float: right !important;
+    padding-top: 5px;
+    padding-right: 30px; 
+    border: none !important; 
+}
+
+.nav-btns {
+    padding: 0 10px;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000 !important;
+    border: 2px solid black;
+
+}
+
+.buy {
+    color: rgb(255, 255, 255) !important;
+    background-color: #000000;
+}
+
+.nav-btns:hover{
+    background-color: #f7c873;
+}
+
+
+
+
+.container { position:relative; }
+.container video {
+    position:relative;
+    z-index:0;
+}
+.overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}
+
+
+
+
+.footer {
+    background-color: #faebcd;
+    height: 200px;
+    width: 100%;
+}
+
+#footer-div div {
+    background-color: purple;
+    float: left;
+    margin: 0 195px;
+    width: 50%;
+}
