@@ -12,13 +12,50 @@
 </head>
 <body>
     <div class="contianer">
-        <div id='image-search'>
-            <img src="./img/complete-small-logo.png" alt="">
+        <div class="header">
+            <div id='comp-logo'>
+                <img src="./img/complete-small-logo.png" alt="">
+            </div>
             <div id="search-bar">
                 <form class="form-inline">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-warning my-2 my-sm-0 search-btn" type="submit">Search</button>
+                    <input class="ss form-control" type="search" placeholder="Search Cars" aria-label="Search" style="float: left;">
+                    <button class="btn btn-outline-warning my-2 my-sm-0 search-btn" type="submit" >Search</button>
                 </form>
+            </div>
+            <div class="account-dropdown">
+                <!-- Split dropleft button -->
+            <div class="btn-group">
+                <div class="btn-group dropleft" role="group">
+                <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <!-- <span class="sr-only">Toggle Dropleft</span> -->
+                </button>
+                <div class="dropdown-menu">
+                        <form class="px-4 py-3">
+                          <div class="form-group">
+                            <label for="exampleDropdownFormEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleDropdownFormPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+                          </div>
+                          <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                            <label class="form-check-label" for="dropdownCheck">
+                              Remember me
+                            </label>
+                          </div>
+                          <button type="submit" class="btn btn-outline-warning">Sign in</button>
+                        </form>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">New around here? Sign up</a>
+                        <a class="dropdown-item" href="#">Forgot password?</a>
+                      </div>
+                </div>
+                <button type="button" class="btn btn-outline-warning">
+                    Account
+                </button>
+            </div>
             </div>
         </div>
         <div id="nav-bar-header">

@@ -9,22 +9,36 @@
     display: table;
   }
 
-#image-search {
-    padding: 1%;
-    /* background-color: blue; */
-    /* border-bottom: 2px solid #434343; */
-    margin-bottom: 0px;
+.header {
+    height: 90px;
+    width: 100%;
+    padding: 20px;
 }
 
-#image-search img{
-    width: 200px;;
+#comp-logo img{
+    width: 200px;
     height: 70px;
+    float: left;
+    margin: 0px;
 }
 
 #search-bar{
-    float: right;
     position: relative;
     top: 15px;
+    float: left;
+    margin-right:10%;
+    margin-left: 12%;
+}
+
+.ss {
+    width: 500px !important;
+}
+
+.account-dropdown {
+    position: relative;
+    top: 15px;
+    float: right;
+    margin-right: 20px; 
 }
 
 .search-btn:hover {
@@ -204,5 +218,21 @@
 }
 
 .login-form {
-    margin: 3% 30%;
+    margin: 3% 35%;
+}
+
+.glowing-border {
+    border: 2px solid #434343;
+    border-radius: 7px;
+}
+
+.glowing-border:focus { 
+    outline: none;
+    border-color: #f7c873;
+    box-shadow: 0 0 10px #faebcd;
+}
+
+.account a{
+    color: #434343;
+    text-decoration: none;
 }
