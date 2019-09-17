@@ -1,3 +1,4 @@
+<!--Joshua Enyi-Christopher -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/css/bootstrap.css">
     <link rel="stylesheet" href="/css/main.css" type="text/css">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+    <title>Fahrzeug::Home</title>
 </head>
 <body>
     <div class="contianer">
@@ -35,43 +37,145 @@
                 </div>
             </div>    
         </div>
-        <!-- nav-bar-header ends -->
-        <div class="container">
-                <video id="video" width="770" height="882" onclick="play();">
-                    <source src="/vid/screen.mp4" type="video/mp4" />
+        <!-- The video -->
+        <div id="vid-background">
+            <div id="text-background">
+                <strong>WE PROVIDE THE PLATFORM</strong>
+                <span>YOU SELL</span>
+            </div>
+                <video autoplay muted loop id="myVideo">
+                    <source src="vid/screen.mp4" type="video/mp4">
                 </video>
-                <div class="overlay">
-                    <p>Content above your video</p>
-                    <form>
-                        <p>Content Below Your Video</p>
-                        <label for="input">Form Input Label</label>
-                        <input id="input" name="input" value="" />
-                        <button type="submit">Submit</button>
-                    </form>
+        </div>
+        <div id="seperator">
+
+        </div>
+        
+        <!-- You can put ads here-->
+        <div class="car-ads">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        <img class="d-block w-100" src="./img/ads/car-ad-1.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                        <img class="d-block w-100" src="./img/ads/car-ad-2.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                        <img class="d-block w-100" src="./img/ads/nissan-ad.jpg" alt="Third slide">
+                        </div>
+                    </div>
                 </div>
             </div>
+        <!--ad ends here-->
 
+        <div class="container clearfix">
+            <div class="inner-containement">
+
+                <div class="card">
+                    <img src="img/ads/car-ad-2.jpg" alt="Avatar" style="width:100%">
+                    <div class="car-info">
+                        <h4><b>Mercedez Benz</b></h4>
+                        <h5>Location</h5>
+                        <p>$120000</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/ads/car-ad-2.jpg" alt="Avatar" style="width:100%">
+                    <div class="car-info">
+                        <h4><b>Mercedez Benz</b></h4>
+                        <h5>Location</h5>
+                        <p>$120000</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/ads/car-ad-2.jpg" alt="Avatar" style="width:100%">
+                    <div class="car-info">
+                        <h4><b>Mercedez Benz</b></h4>
+                        <h5>Location</h5>
+                        <p>$120000</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/ads/car-ad-2.jpg" alt="Avatar" style="width:100%">
+                    <div class="car-info">
+                        <h4><b>Mercedez Benz</b></h4>
+                        <h5>Location</h5>
+                        <p>$120000</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/ads/car-ad-2.jpg" alt="Avatar" style="width:100%">
+                    <div class="car-info">
+                        <h4><b>Mercedez Benz</b></h4>
+                        <h5>Location</h5>
+                        <p>$120000</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/ads/car-ad-2.jpg" alt="Avatar" style="width:100%">
+                    <div class="car-info">
+                        <h4><b>Mercedez Benz</b></h4>
+                        <h5>Location</h5>
+                        <p>$120000</p>
+                    </div>
+                </div>       
+            </div>
+        </div>
+        <div>
+            <!--space-->
+        </div>
+        <div id="newsletter">
+            <div class="container">
+                <p>Sign Up for our Newsletter and stay updated ...</p>
+                <div class="subscribe input-group mb-3">
+                    <input type="text" class="clearfix form-control" placeholder="Enter your Email Address" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="car-ads">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img class="d-block w-100" src="./img/ads/car-ad-1.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                    <img class="d-block w-100" src="./img/ads/car-ad-2.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                    <img class="d-block w-100" src="./img/ads/nissan-ad.jpg" alt="Third slide">
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <footer class="footer">
-            <div id="footer-div">
-                <div class="m">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam ducimus dolore, adipisci recusandae dolor quaerat modi soluta ipsa repellendus porro, fugiat enim dolorum, alias numquam excepturi odit laborum quod inventore!</p>
-    
-    
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm">
+                            <img class="small-footer" src="/img/small-logo.png" alt="">
+                        </div>
+                        <div class="col-sm">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla voluptates omnis nisi reprehenderit vero odit!
+                        </div>
+                        <div class="col-sm">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, optio!
+                        </div>
+                        <div class="col-sm">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia rem, at quas voluptatibus assumenda dolorum.
+                        </div>
+                    </div>
                 </div>
-                <div class="m">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta non sit voluptates nobis sunt tempore possimus corrupti cumque dolorum incidunt, quos ullam totam fugit hic quae magni dolores architecto ut?</p>
-    
-                </div>
-                <div class="m">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, pariatur accusantium nulla cumque id tempora? Facere, dolor? Quidem accusantium voluptate inventore dolores asperiores quasi quod rerum cum repudiandae. Labore, exercitationem.</p>
-    
-                </div>
-            </div>
-
         </footer>
     </div>
-
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
