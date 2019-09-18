@@ -1,0 +1,154 @@
+<!--Joshua Enyi-Christopher -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/dasboard.css">
+    <link rel="stylesheet" href="/css/main.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+    <title>Fahrzeug::Register</title>
+</head>
+<body>
+    <div class="contianer">
+        <div class="header">
+            <div id='comp-logo'>
+              <a href="./index.html"><img src="./img/complete-small-logo.png" alt=""></a>
+            </div>
+            <div id="search-bar">
+                <form class="form-inline">
+                    <input class="glowing-border ss form-control" type="search" placeholder="Search Cars" aria-label="Search" style="float: left;">
+                    <button class="btn btn-outline-warning my-2 my-sm-0 search-btn" type="submit" >Search</button>
+                </form>
+            </div>
+            <div class="account-dropdown">
+                <!-- Split dropleft button -->
+            <div class="btn-group">
+                <div class="btn-group dropleft" role="group">
+                <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <!-- <span class="sr-only">Toggle Dropleft</span> -->
+                </button>
+                <div class="dropdown-menu">
+                        <form class="px-4 py-3">
+                          <div class="form-group">
+                            <label for="exampleDropdownFormEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleDropdownFormPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+                          </div>
+                          <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                            <label class="form-check-label" for="dropdownCheck">
+                              Remember me
+                            </label>
+                          </div>
+                          <button type="submit" class="btn btn-outline-warning">Sign in</button>
+                        </form>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">New around here? Sign up</a>
+                        <a class="dropdown-item" href="#">Forgot password?</a>
+                      </div>
+                </div>
+                <button type="button" class="btn btn-outline-warning">
+                    Account
+                </button>
+            </div>
+            </div>
+        </div>
+        <div id="nav-bar-header">
+            <div id="nav-div">
+                <ul id="nav-bar-pages">
+                    <li><a href="">PAGE</a></li>
+                    <li><a href="">PAGE</a></li>
+                    <li><a href="">PAGE</a></li>
+                    <li><a href="">PAGE</a></li>
+                </ul>
+                <div id="buy-sell-btn">
+                    <button class="nav-btns btn btn-outline-warning sell">SELL CAR</button>
+                    <button class="btn btn-outline-warning nav-btns buy">BUY CAR</button>
+                </div>
+            </div>    
+        </div>
+
+        <div class="container clearfix">
+            <div id="selection">
+                <ul>
+                    <li>Create Car Ad</li>
+                    <li>View all Ads</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="view-cars">
+                <div class="container clearfix">
+                    <div class="inner-containement">
+                        <a href="#">
+
+                            <div class="card" id="card-${x.id}">
+                                    <img src="img/ads/car-ad-2.jpg" alt="Avatar" style="width:100%">
+                                    <div class="car-info">
+                                        <h4><strong>${x.brand}</strong></h4>
+                                        <h5>${x.model}<span id="${x.condition}"><i id="condition">${x.condition}</i></span></h5>
+                                        <h6><strong>Location:</strong> ${x.location}</h6>
+                                        <p><span>$</span>${x.price}</p>
+                                        <div id="del-edi">
+                                            <p><button class='del btn btn-outline-danger' id="del-${x.id}" value="${x.id}">DEL</button>
+                                            <button class="edit" id="edit-${x.id}" value="${x.id}">EDIT</button></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                        </a>
+
+  
+                        
+ 
+
+
+
+
+                    </div>       
+                </div>
+            <div>
+        </div>
+        
+
+
+
+
+
+
+
+
+
+        <footer class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm">
+                            <img class="small-footer" src="/img/small-logo.png" alt="">
+                        </div>
+                        <div class="col-sm">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla voluptates omnis nisi reprehenderit vero odit!
+                        </div>
+                        <div class="col-sm">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, optio!
+                        </div>
+                        <div class="col-sm">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia rem, at quas voluptatibus assumenda dolorum.
+                        </div>
+                    </div>
+                </div>
+        </footer>
+    </div>
+
+
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/dashboard.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

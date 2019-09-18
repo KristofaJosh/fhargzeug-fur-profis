@@ -1,0 +1,60 @@
+#del-edi {
+    float: right;
+}
+.card p{
+    float: left;
+}
+
+.card p button{
+    width: 50px;
+    padding: 0 6px;
+    margin: 0 3px;
+    border-radius: 20px;
+}
+
+#condition {
+    float: right;
+    font-size: 15px;
+    opacity: 0.5;
+}
+
+#used {
+    color: red;
+}
+
+#new {
+    color: green;
+}
+
+.del {
+    background-color: brown;
+}
+
+.edit {
+    background-color: green;
+}
+
+#product-description {
+    margin: 10% 0;
+    float: left;
+    width: 70%;
+    height: 500px;
+    border-radius: 20px;
+    border: 3px solid #faebcd;
+}
+
+#product-photo { 
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    overflow: hidden;
+    margin: 20px;
+    border: 3px solid #faebcd;
+
+}
+
+#product-photo img{
+    width: 200px;
+    height: 200px;
+
+}

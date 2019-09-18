@@ -1,0 +1,17 @@
+{
+  "users": [
+    {
+      "brand": "Joshua",
+      "model": "A8",
+      "condition": "new",
+      "image": "",
+      "price": "528888",
+      "location": "another text",
+      "id": 1
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

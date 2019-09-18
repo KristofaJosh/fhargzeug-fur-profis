@@ -59,12 +59,27 @@
 
 #nav-bar-pages li{
     float: left;
-    padding: 3px 10px;
-    margin: 10px;
-    /* height: 40px; */
+    padding: 10px 20px;
     list-style-type: none;
-    /* background-color: red; */
-    margin-right: 11px;
+    text-decoration: none;
+}
+
+#nav-bar-pages li a {
+    text-decoration: none;
+    color: #000;
+}
+
+#nav-bar-pages li:hover {
+    background-color: #434343;
+}
+
+#nav-bar-pages li a:hover {
+    text-decoration: none;
+    color: #fdfbfb;
+}
+
+#nav-bar-pages a {
+    color: #f8f8f8;
 }
 
 #buy-sell-btn {
@@ -235,4 +250,21 @@
 .account a{
     color: #434343;
     text-decoration: none;
+}
+
+#car-ad {
+    display: block;
+}
+
+#selection {
+    float: left;
+    margin-right: 5%;
+    margin-top: 10%;
+}
+#selection li{
+    padding: 0px 50px;
+    margin: 2px 0;
+    background-color: #faebcd;
+    border: 1px solid #f8f8f8;
+    border-radius: 10px;
 }
