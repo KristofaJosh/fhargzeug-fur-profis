@@ -21,7 +21,8 @@ $('document').ready(function(){
             method: "POST",
             url: 'http://localhost:3000/users',
             data: create_post,
-            success: alert('Submitted!'),
+
+
             // dataType: dataType
         });
 
