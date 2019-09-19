@@ -8,6 +8,33 @@
       "price": "528888",
       "location": "another text",
       "id": 1
+    },
+    {
+      "brand": "Mercedez",
+      "model": "E550",
+      "condition": "new",
+      "image": "",
+      "price": "800000",
+      "location": "another text",
+      "id": 2
+    },
+    {
+      "brand": "Toyotahh",
+      "model": "Camryw",
+      "condition": "new",
+      "image": "",
+      "price": "80000",
+      "location": "Port Harcourt",
+      "id": 3
+    },
+    {
+      "brand": "Bugatti",
+      "model": "Yaris",
+      "condition": "new",
+      "image": "C:\\fakepath\\20160517_153354.jpg",
+      "price": "963300",
+      "location": "Lagos",
+      "id": 4
     }
   ],
   "comments": [],

@@ -6,19 +6,20 @@ $('document').ready(function(){
         method: "GET",
         success: function(data){
             // console.log(data)
-            recall = data
             for (x of data){
                 $('.inner-containement').append(`
                 <div class="card" id="card-${x.id}">
-                    <img src="img/ads/car-ad-2.jpg" alt="Avatar" style="width:100%">
+                    <a class="single_ad" href="single_ad.html?id=${x.id}"><img src="img/ads/car-ad-2.jpg" alt="Avatar" style="width:100%"><a>
                     <div class="car-info">
                         <h4><strong>${x.brand}</strong></h4>
                         <h5>${x.model}<span id="${x.condition}"><i id="condition">${x.condition}</i></span></h5>
                         <h6><strong>Location:</strong> ${x.location}</h6>
                         <p><span>$</span>${x.price}</p>
                         <div id="del-edi">
-                            <p><button class='del btn btn-outline-danger' id="del-${x.id}" value="${x.id}">DEL</button>
-                            <button class="edit" id="edit-${x.id}" value="${x.id}">EDIT</button></p>
+                            <p><button class='del' id="del-${x.id}" value="${x.id}">DEL</button>
+                            <a href="edit_product.html?id=${x.id}">
+                            <button class="edit">EDIT</button></a>
+                            </p>
                         </div>
                     </div>
                 </div>`);
@@ -39,7 +40,7 @@ $('document').ready(function(){
                     }
 
                 })
-                console.log($(this).val())
+                // console.log($(this).val())
             })
 
             // //to edit an item
