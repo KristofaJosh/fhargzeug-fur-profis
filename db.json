@@ -1,3 +1,11 @@
 {
-  "server":{"name": "James Arthur", "message": "working"},
+  "posts": [
+    {
+      "id": 1,
+      "title": "hello"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
